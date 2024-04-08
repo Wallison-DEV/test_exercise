@@ -26,8 +26,12 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
-  },
+    ],
+    "rules": {
+      "my-custom-rule": "warn",
+      "another-rule": "error"
+    }
+  },  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -39,5 +43,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "`npm install` ou `yarn install`",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/babel__core": "^7.20.5",
+    "@types/babel__generator": "^7.6.8"
   }
 }
